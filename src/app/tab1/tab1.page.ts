@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-
+import { Aplicaciones } from '../core/interfaces/aplicaciones';
+import { APLICACIONES } from '../core/constantes/aplicaciones';
+import { NavController } from '@ionic/angular';
 @Component({
   selector: 'app-tab1',
   templateUrl: 'tab1.page.html',
@@ -7,6 +9,12 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  constructor() {}
 
+  aplicaciones: Aplicaciones[] = APLICACIONES;
+
+  constructor(private navCtrl: NavController) {}
+
+  navegarAPagina() {
+    this.navCtrl.navigateForward('/descargar-app');
+  }
 }
