@@ -1,4 +1,6 @@
 import { Aplicaciones } from "../interfaces/aplicaciones";
+// constantes/aplicaciones.ts
+export const aplicaciones: string[] = ['WhatsApp', 'Instagram', 'Snapchat', 'Youtube', 'Tik Tok', 'Outlook','Netflix','  Duolingo ','   Youtube', '  Chat Gpt  ','  Amazon Prime ','HBO MAX','PicsArt  ',' Mercado Pago ',' Smart Gym ', 'Gmail',' Google', 'F1 TV', 'X','EA FC 24','Call Of Duty III','Football Manager 24'];
 
 export const APLICACIONES :Aplicaciones[]=[
     {
