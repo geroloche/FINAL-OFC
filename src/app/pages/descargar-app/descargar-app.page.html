@@ -10,15 +10,29 @@
       <ion-title size="large">descargarApp</ion-title>
     </ion-toolbar>
   </ion-header>
-  <ion-card>
-    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
-    <ion-card-header>
-      <ion-card-title>APLICACION</ion-card-title>
-      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-    </ion-card-header>
-  
-    <ion-card-content>
-      Here's a small text description for the card content. Nothing more, nothing less.
-    </ion-card-content>
+  <ion-card *ngFor="let item of aplicacionActual.descripcion">
+    
+ 
+      <ion-card-content>
+        <ion-list>
+          <div class="contenedor">
+            
+            <img id="imagen" alt="Silhouette of mountains" src="{{item.imagen}}">
+            
+            <ion-label id="nombre">{{item.nombre}}</ion-label>
+            
+          </div>
+       
+          
+
+        </ion-list>
+        <h3>{{item.tipo}}</h3>
+        <br>
+        <p>{{item.descripcion}}</p>
+        <br>
+        <a href="{{item.link}}"><ion-button color="success" expand="block">haz click para descargar</ion-button></a>
+      </ion-card-content>
+          
+
   </ion-card>
-</ion-content>
+

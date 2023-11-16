@@ -7,7 +7,7 @@ const routes: Routes = [
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
   },
   {
-    path: 'descargar-app',
+    path: 'descargar-app/:id',
     loadChildren: () => import('./pages/descargar-app/descargar-app.module').then( m => m.DescargarAppPageModule)
   }
 ];
