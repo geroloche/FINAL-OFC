@@ -13,6 +13,10 @@ ion-card {
   
   ion-card-title {
     font-size: 14px;
+      
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
   
   ion-card-button {
@@ -28,6 +32,13 @@ ion-card {
     display: flex;
     margin:30px 20px;
   
+  }
+
+  ion-card-subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
   }
 
   
