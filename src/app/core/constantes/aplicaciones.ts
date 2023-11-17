@@ -158,14 +158,14 @@ export const APLICACIONES :Aplicaciones[]=[
     {
         id:6,
         nombre:"Outlook",
-        imagen:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Microsoft_Outlook_2013-2019_logo.svg/1200px-Microsoft_Outlook_2013-2019_logo.svg.png",
+        imagen:"https://play-lh.googleusercontent.com/AbbckPwXir54znQLkxMunKYPvoSW68gTZWZsx6URWlB-t_kUXZAvQOj8t4gnIncokVM",
         tipo:"Correo Electronico",
         link:"",
         Precio: true ,
         descripcion:[{
             id:6,
             nombre:"Outlook",
-            imagen:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Microsoft_Outlook_2013-2019_logo.svg/1200px-Microsoft_Outlook_2013-2019_logo.svg.png",
+            imagen:"https://play-lh.googleusercontent.com/AbbckPwXir54znQLkxMunKYPvoSW68gTZWZsx6URWlB-t_kUXZAvQOj8t4gnIncokVM",
             tipo:"Correo Electronico",
             link:"",
             descripcion:"",
@@ -290,7 +290,7 @@ export const APLICACIONES :Aplicaciones[]=[
         imagen:"https://www.appgefahren.de/wp-content/uploads/2023/06/SmartGym-Icon.jpeg",
         tipo:"Entrenamiento",
         link:"",
-        Precio: true ,
+        Precio: false ,
         descripcion:[{
             
         id:15,
@@ -305,14 +305,14 @@ export const APLICACIONES :Aplicaciones[]=[
     {
         id:16,
         nombre:"Gmail",
-        imagen:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZs-41t3bzmxTe7TGqyFgescr8WZVJTMNCcw&usqp=CAU",
+        imagen:"https://static.vecteezy.com/system/resources/previews/013/948/544/non_2x/gmail-logo-on-transparent-white-background-free-vector.jpg",
         tipo:"Comunicacion",
         link:"",
         Precio: true ,
         descripcion:[{
             id:16,
             nombre:"Gmail",
-            imagen:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZs-41t3bzmxTe7TGqyFgescr8WZVJTMNCcw&usqp=CAU",
+            imagen:"https://static.vecteezy.com/system/resources/previews/013/948/544/non_2x/gmail-logo-on-transparent-white-background-free-vector.jpg",
             tipo:"Comunicacion",
             link:"",
             descripcion:"",
@@ -358,7 +358,7 @@ export const APLICACIONES :Aplicaciones[]=[
         imagen:"https://cdn-7.motorsport.com/images/amp/68eyZ1B0/s3/f1-f1-logo-2017-f1-logo-6693340.jpg",
         tipo:"Entretenimiento",
         link:"",
-        Precio: true ,
+        Precio: false ,
         descripcion:[{
             id:19,
         nombre:"F1 TV",
@@ -374,7 +374,7 @@ export const APLICACIONES :Aplicaciones[]=[
         imagen:"https://i2-prod.mirror.co.uk/incoming/article30405878.ece/ALTERNATES/s1200c/0_preorder.jpg",
         tipo:"Arcade",
         link:"",
-        Precio: true ,
+        Precio: false ,
         descripcion:[{
             id:20,
             nombre:"EA FC 24",
