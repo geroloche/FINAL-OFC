@@ -1,4 +1,17 @@
 // Estilos para la página
+.titulo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+      font-size:large;
+      max-width: 1200px; /* Ancho máximo para pantallas grandes */
+      margin: 0 auto; /* Centrar el contenedor en la página */
+      padding: 0px;
+      box-sizing: border-box;
+}
+
 ion-content {
     background-color: #ffecb3; // Fondo amarillo claro
     color: #333; // Texto oscuro
@@ -9,6 +22,7 @@ ion-content {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); // Sombra más pronunciada
     border-radius: 20px; // Bordes redondeados
     margin: 20px;
+    
   }
   
   // Estilos para el botón de recomendaciones aleatorias
@@ -27,9 +41,28 @@ ion-content {
       background-color: #ff3385; // Cambio de color al pasar el ratón
     }
   }
+
+ion-card-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     flex-direction: column;
+  }
+
+
+  ion-card-header{
+    display: flex;
+   
+    align-items: center;
+  }
+
+
+ 
+
   
 
 
 
  
+
  
